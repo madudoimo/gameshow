@@ -57,8 +57,27 @@ footer{
    
 }
 
+main{
+    flex-wrap: wrap;
+}
+
 #logo{
     height: 8rem;
+}
+
+#control, #death, #rdr, #roblox, #mario,#rock{
+    width: 338px;
+    height: 601px;
+    margin-left: 10rem;
+}
+
+
+
+
+
+#caixona{
+    display: flex;
+    align-items: center;
 }
 
 .tipo{
@@ -71,5 +90,10 @@ footer{
   padding-top: 0.5rem;
 }
 
+h2{
+    font-size: 30px;
+    margin-left: 8rem;
+    color: white;
+}
 
 
